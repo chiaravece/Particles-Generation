@@ -1,7 +1,6 @@
 ## Generazione Monte Carlo di particelle
 
-Lo scopo dell’esperienza è quello di simulare con un programma di generazione Monte Carlo, attraverso ROOT (il framework di analisi dati “object oriented” in C++.),  
-gli eventi fisici legati al decadimento delle particelle K* e alla collisione di particelle elementariquali protoni, pioni e kaoni.
+Lo scopo dell’esperienza è quello di simulare con un programma di generazione Monte Carlo, attraverso ROOT (il framework di analisi dati “object oriented” in C++.), gli eventi fisici legati al decadimento delle particelle K* e alla collisione di particelle elementariquali protoni, pioni e kaoni.
 
 ## Struttura del codice
 Il codice è organizzato in tre classi principali e un Main Module.  
@@ -14,3 +13,4 @@ da tabella per descrivere le proprietà caratteristiche del tipo di particella l
 `ResonanceType`.  
 La scelta è ricaduta sulla composizione piuttosto che sull’ereditarietà perchè più dinamica, ogni oggetto può essere rimpiazzato al run-time  
 con un altro dello stesso tipo, evita la costruzione di classi di difficile gestione e permette il risparmio di memoria.  
+
