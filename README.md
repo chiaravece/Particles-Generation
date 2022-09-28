@@ -14,3 +14,4 @@ da tabella per descrivere le proprietà caratteristiche del tipo di particella l
 La scelta è ricaduta sulla composizione piuttosto che sull’ereditarietà perchè più dinamica, ogni oggetto può essere rimpiazzato al run-time  
 con un altro dello stesso tipo, evita la costruzione di classi di difficile gestione e permette il risparmio di memoria.  
 
+La descrizione dell'esperienza è nel file `Relazione.pdf` e i risultati nella figura `c.pdf`
